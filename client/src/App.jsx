@@ -20,16 +20,12 @@ import UnauthPage from './pages/unauth-page'
 
 const App = () => {
 
-  const isAuthenticated = true;
-  const user = {
-    name : "Pranjal",
-    role: "admin",
-  }
+  const isAuthenticated = false;
+  const user = null;
 
   return (
     <div className='flex flex-col overflow-hidden bg-white'>
 
-      <h1>Shopping view header</h1>
       <Routes>
 
         {/* <Route path="/" element={
